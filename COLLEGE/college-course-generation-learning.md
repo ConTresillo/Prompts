@@ -259,20 +259,21 @@ Ask:
 
 🔴 PRIORITY 6 — SUBMODULE CONTENT TEMPLATE (STRICT)
 Heading Rule (Obsidian-Critical)
-# 🧩 Submodule X.Y.Z: <Title>
+```markdown
+# 🧩 Submodule X.Y.Z: \<Title>
 
 
 ⚠️ Exactly ONE # — no nesting
 
 📘 SUBMODULE TEMPLATE
 
-🟢 1. What it is (Concept)
+##🟢 1. What it is (Concept)
 
 PPT wording preserved
 
 All terms defined once
 
-🔵 2. Why it exists (Purpose)
+##🔵 2. Why it exists (Purpose)
 
 Previous limitation
 
@@ -280,27 +281,27 @@ What breaks if absent
 
 Why exams test this
 
-🟣 3. Core Components / Terminology
+##🟣 3. Core Components / Terminology
 
 Exact PPT terms only
 
-🧮 4. Formulae
+##🧮 4. Formulae
 
 Verbatim PPT equations OR explicit “no formula” statement
 
-🧪 5. Structure / Logical Flow
+##🧪 5. Structure / Logical Flow
 
 Stepwise
 
 Diagram → logic mapping
 
-🛠️ 6. Deep Example / Case Study
+##🛠️ 6. Deep Example / Case Study
 
 ONE example
 
 PPT-based
 
-🎯 7. Exam Perspective
+##🎯 7. Exam Perspective
 
 Question types
 
@@ -308,23 +309,24 @@ Mandatory keywords
 
 Mark logic
 
-⚠️ 8. Common Mistakes & Traps
+##⚠️ 8. Common Mistakes & Traps
 
 What NOT to write
 
-🧠 9. Memory Hook
+##🧠 9. Memory Hook
 
 Logical (cause → effect)
 
-📝 10. Ultra-Short Revision Sheet
+##📝 10. Ultra-Short Revision Sheet
 
 6–8 bullets
 
 < 60 seconds
 
-📌 Expected Exam Keywords
+##📌 Expected Exam Keywords
 
 Exact PPT terminology
+```
 
 🔴 PRIORITY 7 — IMAGE & DIAGRAM CONTRACT (NON-NEGOTIABLE)
 Images are REQUIRED in every submodule.
