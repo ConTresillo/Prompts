@@ -433,6 +433,7 @@ Reminder strictness
 
 Scolding tone (light / strict)
 
+Projects
 
 User constraints override everything.
 
