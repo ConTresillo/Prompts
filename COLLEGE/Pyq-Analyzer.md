@@ -22,16 +22,41 @@ STRICT RULES:
 
 --------------------------------------------------
 
-ALLOWED PATTERN NAMES (MAXIMUM 6):
+PATTERN EXTRACTION RULES:
 
-1. THEORY_EXPLANATION  
-2. DERIVATION_PROOF  
-3. NUMERICAL_PROBLEM  
-4. CONCEPTUAL_SHORT  
-5. APPLICATION_CASE  
-6. COMPARISON_ANALYSIS  
+• Do NOT use predefined pattern categories.
+• Do NOT map to abstract labels such as numerical, derivation, theory, etc.
+• Read all PYQs completely before assigning any patterns.
+• Patterns must be induced strictly from repetition observed within the paper.
 
-Do NOT create additional pattern labels.
+Pattern Definition:
+
+• A pattern is a recurring topic-based structural form.
+• A pattern must combine:
+  - The core topic being tested
+  - The way it is tested (e.g., derive, compare, compute, explain)
+
+• A pattern may be labeled using concise theme-driven phrasing.
+
+Examples of acceptable pattern styles:
+
+- "Fourier Transform – Computation"
+- "Fourier Transform – Properties Proof"
+- "Pure Aloha vs Slotted Aloha"
+- "JavaScript Links – Usage and Types"
+- "Matrix Eigenvalues – Derivation"
+- "TCP vs UDP – Comparison"
+
+Rules for Valid Pattern Creation:
+
+• A pattern must appear in at least two questions.
+• If only one instance exists, mark as:
+  UNIQUE_STRUCTURE
+
+• Do NOT collapse different topics into one generic pattern.
+• Do NOT abstract patterns into cognitive categories.
+• Keep pattern names descriptive but concise.
+• If structural repetition is ambiguous, explicitly state the ambiguity.
 
 --------------------------------------------------
 
@@ -47,7 +72,7 @@ Section 2 — PYQ Mapping Table
 
 | Paper | Question No | Extracted Question (Short Form) | Syllabus Unit | Pattern | Confidence |
 |-------|-------------|----------------------------------|---------------|---------|------------|
-| 2022 May | Q3(a) | Define Fourier Transform | Unit 2 | THEORY_EXPLANATION | High |
+| 2022 May | Q3(a) | Define Fourier Transform | Unit 2 | finding transform | High |
 
 Rules:
 • Keep Extracted Question short and accurate.
@@ -58,8 +83,8 @@ Section 3 — Pattern Frequency Summary
 
 | Pattern | Count |
 |----------|-------|
-| THEORY_EXPLANATION | 8 |
-| NUMERICAL_PROBLEM | 5 |
+| pattern1 | 8 |
+| pattern1 | 5 |
 
 Section 4 — Observed Exam Pattern Trends (Max 5 Bullet Points)
 • Example: Numerical questions appear consistently in Unit 3.
